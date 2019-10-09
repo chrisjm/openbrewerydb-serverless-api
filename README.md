@@ -1,10 +1,18 @@
-# serverless-aws-koa-skeleton
+# Open Brewery DB Serverless API
 
-[![Build Status](https://travis-ci.com/chrisjm/serverless-aws-koa-skeleton.svg?branch=master)](https://travis-ci.com/chrisjm/serverless-aws-koa-skeleton)
+## Description
+
+This is a Node.js Serverless Framework version of the OpenBreweryDB API server.
 
 ## Requirements
 
-- node 8.10.x
+- node 8.x
+
+## Uses
+
+- koa 2.8.x
+- node-postgres 7.12.x
+- serverless 1.50.x
 - yarn 1.17.x
 
 ## Setup
