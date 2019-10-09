@@ -1,13 +1,13 @@
-service: serverless-aws-koa-skeleton
+service: openbrewerydb-serverless-api
 
 provider:
   name: aws
-  description: Serverless AWS Skeleton with Koa
+  description: Open Brewery DB Serverless API
   runtime: nodejs8.10
   environment: ${file(./config/${opt:stage, self:provider.stage}.yml):environment}
   region: ${opt:region}
   deploymentBucket:
-    name: serverless-aws-koa-skeleton-deploymentbucket-${opt:region}
+    name: openbrewerydb-serverless-api-deploymentbucket-${opt:region}
 
 plugins:
   - serverless-webpack

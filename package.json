@@ -1,7 +1,7 @@
 {
-  "name": "serverless-aws-koa-skeleton",
+  "name": "openbrewerydb-serverless-api",
   "version": "0.0.1",
-  "description": "Serverless AWS Skeleton with Koa",
+  "description": "Open Brewery DB Serverless API",
   "main": "handler.js",
   "scripts": {
     "dev": "sls offline start -s dev -r us-west-2",
@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:chrisjm/serverless-aws-koa-skeleton.git"
+    "url": "git@github.com:chrisjm/openbrewerydb-serverless-api.git"
   },
   "author": "Chris J Mears <chris.mears@gmail.co>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chrisjm/serverless-aws-koa-skeleton/issues"
+    "url": "https://github.com/chrisjm/openbrewerydb-serverless-api/issues"
   },
-  "homepage": "https://github.com/chrisjm/serverless-aws-koa-skeleton",
+  "homepage": "https://github.com/chrisjm/openbrewerydb-serverless-api",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-eslint": "^10.0.3",
